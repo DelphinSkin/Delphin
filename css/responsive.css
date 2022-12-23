@@ -18,6 +18,7 @@
 @media only screen and (min-width: 599px) and (max-width: 767px) {
     .logo {
         text-align: center;
+        width: 186px;
     }
     .cart-content-right {
         padding-bottom: 5px;
@@ -191,7 +192,7 @@
         line-height: 50px;
     }
 
-  .buy {display: none;}
+  .buy {display:;}
     .banner-main .carousel-caption {
         background: transparent;
     }
@@ -286,7 +287,10 @@ padding: 1px 0px 1px 0px;
      .head_top {
         display: none;
     }
-    .buy {display: none; }
+    .buy {display: flex;
+
+    
+    }
 
     .choose_bg .white_bg .for_box {margin-bottom: 30px;}
     .read-more {margin-top: 10px;}
@@ -340,13 +344,11 @@ padding: 1px 0px 1px 0px;
     .mean-container .mean-bar {
         margin-top: 0;
     }
-    .mean-last {
-        display: none;
-    }
+    
     .head_top {
         display: none;
     }
-    .buy {display: none;  }
+    .buy {display: ;  }
     .main_bt {
         padding: 5px 24px 5px 24px;
         margin-right: 10px;
